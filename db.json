@@ -1,0 +1,37 @@
+{
+  "userData": [
+    {
+      "email": "kamleshm1999@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "userPosts": [
+    {
+      "rootUser": "kamleshm1999@gmail.com",
+      "id": "1668936098066",
+      "name": "Lizard",
+      "image": "https://mui.com/static/images/cards/contemplative-reptile.jpg",
+      "post": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica\n\n\n"
+    },
+    {
+      "rootUser": "kamleshm1999@gmail.com",
+      "id": "1668936366795",
+      "name": "Lizard",
+      "image": "https://mui.com/static/images/cards/contemplative-reptile.jpg",
+      "post": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica\n\n\n"
+    },
+    {
+      "rootUser": "abc@gmail.com",
+      "id": "1668938193313",
+      "name": "news",
+      "image": "https://static-koimoi.akamaized.net/wp-content/new-galleries/2022/11/drishyam-2-box-office-day-2-early-trends-ajay-devgn-starrer-is-on-a-roll-001.jpg",
+      "post": "Drishyam 2 Box Office Day 2 (Early Trends): Looks like, the Abhishek Pathak directorial is already on its way to smash records at the box office. The wait got finally over after 7 long years when the makers returned with the 2nd instalment of Drishyam."
+    }
+  ]
+}

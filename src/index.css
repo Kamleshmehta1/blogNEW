@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.userProfile {
+  color: #fff;
+  text-decoration: none;
+}
+.navLinks {
+  color: #fff;
+  text-decoration: none;
+}
+
+label {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 10px 5px;
+}
+
+.loginContainer {
+  width: 50%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+
+.loginInput,
+#textAreaSize {
+  flex: 80%;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.loginInput:focus,
+#textAreaSize:focus {
+  outline: none !important;
+  border: 1px solid #3e81ba;
+  color: gray;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #3e81ba;
+}
+
+.loginInput::placeholder {
+  font-weight: bolder;
+}
+
+.loginInput.login,
+.loginInput.signUp {
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #49a019;
+}
+
+Button.logOut {
+  margin: 0 0 2px 5px;
+  background-color: #dd3544;
+}
+Button.logOut:hover {
+  background-color: #dd3544;
+}
+
+#textAreaSize {
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  height: 100px;
+  margin: 0;
+  resize: none;
+}
+
+.postContainer {
+  width: 70%;
+  margin: 50px auto 0 auto;
+}
+
+Button.edit {
+  background-color: #49a019;
+  color: white;
+  margin: 5px;
+}
+
+Button.delete {
+  background-color: #dd3544;
+  color: white;
+  margin: 5px;
+}
+
+Button.edit:hover {
+  background-color: #49a019;
+  color: white;
+  margin: 5px;
+  box-shadow:  0 0 10px #49a019;
+}
+Button.delete:hover {
+  background-color: #dd3544;
+  color: white;
+  margin: 5px;
+  box-shadow:  0 0 10px #dd3544;
+}
